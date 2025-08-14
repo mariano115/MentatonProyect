@@ -1,25 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import CustomButton from './components/CustomButton/CustomButton';
+import React from 'react';
 import { PaperProvider } from 'react-native-paper';
+import AppNavigator from './navigation/AppNavigator';
+import { useFonts } from 'expo-font';
+import { StatusBar } from 'expo-status-bar';
+import { View, Platform } from 'react-native';
 
 export default function App() {
+  const [fontsLoaded] = useFonts({
+    'Montserrat': require('./assets/fonts/Montserrat-Bold.ttf'),
+    // ...otros estilos si los necesitas
+  });
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
     <PaperProvider>
-      <View style={styles.container}>
-        <Text>Open up App.tsx to start working on your app!</Text>
-        <StatusBar style="auto" />
-        <CustomButton mode='contained'>Presionar Boton</CustomButton>
-      </View>
+      <StatusBar style="light" translucent backgroundColor="transparent" hidden />
+      <AppNavigator />
     </PaperProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
