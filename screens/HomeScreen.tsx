@@ -19,32 +19,32 @@ export default function HomeScreen() {
     const categories = [
         {
             id: 1,
-            label: "historia y geografia",
+            label: "Historia y Geografía",
             icon: require('../assets/icons/earth.png'),
         },
         {
             id: 2,
-            label: "naturaleza y ciencia",
+            label: "Naturaleza y Ciencia",
             icon: require('../assets/icons/science.png'),
         },
         {
             id: 3,
-            label: "artes",
+            label: "Artes",
             icon: require('../assets/icons/art.png'),
         },
         {
             id: 4,
-            label: "entretenimiento y espectaculo",
+            label: "Entretenimiento y Espectáculo",
             icon: require('../assets/icons/entertainment.png'),
         },
         {
             id: 5,
-            label: "deportes y juegos",
+            label: "Deportes y Juegos",
             icon: require('../assets/icons/sports.png'),
         },
         {
             id: 6,
-            label: "cambalache",
+            label: "Cambalache",
             icon: require('../assets/icons/blender.png'),
         },
     ];
