@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.MentatonProyect'
+    namespace 'com.mariano115.MentatonProyect'
     defaultConfig {
-        applicationId 'com.anonymous.MentatonProyect'
+        applicationId 'com.mariano115.MentatonProyect'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
