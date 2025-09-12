@@ -13,6 +13,7 @@ pnpm-debug.log*
 web-build/
 dist/
 expo-env.d.ts
+Mentaton.apk
 
 # Build outputs
 android/app/build/

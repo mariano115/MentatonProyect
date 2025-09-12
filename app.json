@@ -4,7 +4,7 @@
     "slug": "Mentaton-Proyect",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -21,7 +21,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.MentatonProyect"
+      "package": "com.mariano115.MentatonProyect"
     },
     "web": {
       "favicon": "./assets/favicon.png"

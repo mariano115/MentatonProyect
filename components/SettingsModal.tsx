@@ -53,7 +53,7 @@ export default function SettingsModal({
               Dificultad: {current.label}
             </Text>
           </TouchableOpacity>
-          <LanguageToggle selected={language} onSelect={setLanguage} />
+          {/*<LanguageToggle selected={language} onSelect={setLanguage} />*/}
           <TouchableOpacity style={styles.closeButton} onPress={onClose}>
             <Text style={styles.closeButtonText}>Cerrar</Text>
           </TouchableOpacity>
