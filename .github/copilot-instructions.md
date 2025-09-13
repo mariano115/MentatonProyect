@@ -129,20 +129,16 @@ try {
 
 ### Asset Loading
 
-```typescript
+````typescript
 // Images from assets
 <Image source={require("../assets/icons/settings.png")} />;
-
-// Database from assets
-const asset = Asset.fromModule(require("../assets/database/questions.db"));
-```
 
 ### State Management
 
 ```typescript
 const [currentQuestion, setCurrentQuestion] = useState<any>(null);
 const [showAnswer, setShowAnswer] = useState(false);
-```
+````
 
 ## Testing & Validation
 
